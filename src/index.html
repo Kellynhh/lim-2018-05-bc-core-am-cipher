@@ -5,8 +5,54 @@
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
+  <header>
+    <!-- Encabezado de la pagina web-->
+    <h1>Proyecto 1</h1>
+    <h2>Caesar Cipher</h2>  
+  </header>
+  <hr>
   <body>
-    <div id="root"></div>
+
+    <!-- creo una etiqueta div que es un contenedor con una clase para poder darles estilos en css y la llamo box1-->
+
+    <div class="box">
+    <h3 class="titulo">Introduce un Número (offset)</h3>  
+    <textarea type="text" id="valoroffset"></textarea>
+    
+    <h4 class="titulo">Introduce el texto a Cifrar</h4>
+   
+      <!--** LA ETIQUETA TEXTAREA** especifica un area de texto en nuestra pagina web, es parecida visualmente a la entreda input pero la funcion es diferente-->
+    <textarea type="text" id="textoacifrar" class= "cajatexto"></textarea>
+    <!--Realizo un boton para que el cliente le de click y pueda hacer el evento que en este caso es cifrar-->
+    <button class="boton" id="botoncifrar" onclick="botoncifrar('textoacifrar')">Cifrar</button>
+    <!--<div id="boxcifrado">
+      <p id="resultado"></p>
+
+    </div>-->
+    <!-- Creo un area de texto para que imprima dentro el resultado-->
+    <textarea type="text" id="textocifrado" class= "cajatexto"></textarea>
+
+   
+
+   
+
+      <h4 class="titulo">Introduce el texto a Decifrar</h4>
+
+      <!--** LA ETIQUETA TEXTAREA** especifica un area de texto en nuestra pagina web, es parecida visualmente a la entreda input pero la funcion es diferente-->
+    <textarea type="text" id="textoadecifrar" class= "cajatexto"></textarea>
+    <!--Realizo un boton para que el cliente le de click y pueda hacer el evento que en este caso es cifrar-->
+    <button class="boton" id="botondecifrar" onclick="botondecifrar('textoadecifrar')">Decifrar</button>
+    <!--<div id="boxcifrado">
+      <p id="resultado"></p>
+
+    </div>-->
+    <!-- Creo un area de texto para que imprima dentro el resultado-->
+    <textarea type="text" id="textodecifrado" class= "cajatexto"></textarea>
+
+    </div>
+
+  
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

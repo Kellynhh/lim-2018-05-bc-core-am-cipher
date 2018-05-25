@@ -1,0 +1,85 @@
+body{
+
+	background-image: url(https://www.definicionabc.com/wp-content/uploads/tecnologia/Descifrar.jpg);
+
+}
+
+header{
+
+	
+    margin-left: 500px;
+
+	color: white;
+}
+
+#boxcifrado{
+
+	background-color: #F4EEEE;
+	width: 200px;
+    height: 22px;
+    border: 1px solid black;
+    display: inline-block;
+    border: 1px solid #333;
+}
+ .cajatexto{ 
+ 	width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    height: 23px;
+    padding: 3px 5px 0;
+    display: inline-block;
+}
+#valoroffset{ 
+ 	width: 80px;
+    height: 150px;
+    border-radius: 5px;
+    height: 23px;
+    padding: 3px 5px 0;
+    display: inline-block;
+ }
+.boton{
+    width:100px;
+    height:40px;
+	background-color: #77C4E1;
+	border-radius: 10px;
+	padding: 8px;
+	display: inline-block;
+    background-color:#37F449; 
+
+
+
+}
+.boton:hover {
+    background-color: #008CBA;
+    color: white;
+}
+.box{
+	text-align: center;
+}
+.titulo{
+	font-size: 20px;
+}
+
+h1{
+
+    color: yellow;
+    
+}
+
+h2{
+    color: yellow;
+    
+
+}
+
+h3{
+
+    color: yellow;
+    
+}
+
+h4{
+
+    color: yellow;
+}
+
