@@ -1,23 +1,24 @@
 
-function botoncifrar(){
+	document.getElementById('botoncifrar').addEventListener('click', function(){
 
-	let valoroffset= document.getElementById('valoroffset').value; // se obtiene el valor del numero offset introducido
+     let valoroffset = document.getElementById('valoroffset').value; // se obtiene el valor del numero offset introducido
 
-	let nrooffset= parseInt(valoroffset,10); // se parsea para convertir en entero
+	let nrooffset = parseInt(valoroffset,10); // se parsea para convertir en entero
 
-	let textoacifrar= document.getElementById('textoacifrar').value; //se obtiene el valor del texto de cifrar
+	let textoacifrar = document.getElementById('textoacifrar').value; 
 
-	document.getElementById('textocifrado').innerHTML = cipher.encode(nrooffset,textoacifrar); // se llama al metodo cipher.encode() para cifrar y arroja el texto cifrado
-}
+	 document.getElementById('textocifrado').innerHTML = cipher.encode(nrooffset,textoacifrar); 
+     });
 
 
- function botondecifrar(){
 
+
+	document.getElementById('botondescifrar').addEventListener('click', function(){
  	let valoroffset= document.getElementById('valoroffset').value; // se obtiene el valor del numero offset introducido
 
 	let nrooffset= parseInt(valoroffset,10); // se parsea para convertir en entero
 
-    let textoadecifrar=document.getElementById('textoadecifrar').value; //se obtiene el valor del texto de decifrar
+    let textoadescifrar=document.getElementById('textoadescifrar').value; //se obtiene el valor del texto de decifrar
 
- 	document.getElementById('textodecifrado').innerHTML= cipher.decode(nrooffset,textoadecifrar); // se llama al metodo cipher.decode() para decifrar y arroja el texto decifrado
-}
+ 	document.getElementById('textodescifrado').innerHTML= cipher.decode(nrooffset,textoadescifrar); // se llama al metodo cipher.decode() para decifrar y arroja el texto decifrado
+    });
