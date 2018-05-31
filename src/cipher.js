@@ -23,7 +23,6 @@ return resultado;
 decode(offset, string) {
 	
  let resultado='';
-
  for (let i=0; i<string.length; i++){
 
    let numeroposicion = string.charCodeAt(i); // obtenemos el código ASCII
