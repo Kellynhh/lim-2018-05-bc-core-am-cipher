@@ -14,3 +14,7 @@ En éste primer proyecto propuesto he construido una pagina web que nos permite 
 
 Crear una pagina web que permita cifrar y decifrar texto.
 
+## Experiencia al usuario
+Se busco brindar al usuario un aplicativo amigable y falcil de enterder  con el proposio de atender directamente a la necesidad del usuario. 
+
+pense en algo sencillo y facil de entender para el usuario. 
