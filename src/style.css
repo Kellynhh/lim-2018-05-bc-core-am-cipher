@@ -1,18 +1,25 @@
 body{
 
-
-
 	background-color: #33B6A2;
-
-
+}
+textarea{
+    width: 20em;
+    height: 15em;
 
 }
 
-header{
-
-    margin-left: 500px;
-	color: white;
+.titulo{
+    display: inline-block;
 }
+
+#valoroffset{
+    display: inline-block;
+}
+
+#valoroffset2{
+    display: inline-block;
+}
+
 
 #boxcifrado{
 
@@ -23,14 +30,7 @@ header{
     display: inline-block;
     border: 1px solid #333;
 }
- .cajatexto{ 
- 	width: 300px;
-    height: 150px;
-    border-radius: 5px;
-    height: 23px;
-    padding: 3px 5px 0;
-    display: inline-block;
-}
+ 
 #valoroffset{ 
  	width: 80px;
     height: 150px;
@@ -39,25 +39,144 @@ header{
     padding: 3px 5px 0;
     display: inline-block;
  }
+
+ #valoroffset2{ 
+    width: 80px;
+    height: 150px;
+    border-radius: 5px;
+    height: 23px;
+    padding: 3px 5px 0;
+    display: inline-block;
+ }
 .boton{
-    width:100px;
-    height:40px;
-	background-color: #77C4E1;
-	border-radius: 10px;
-	padding: 8px;
+    width: 170px;
+    height: 80px;
+    font-size: 20px;
+	border-radius: 15px;
+	padding: 15px 25px;
 	display: inline-block;
-    background-color:#37F449; 
-
-
+    background-color:#4CAF50;
+    text-align: center;
+    cursor:pointer;
+    outline: none;
+    box-shadow: 0 9px #999;
+    color:#fff;
 
 }
 .boton:hover {
     background-color: #008CBA;
     color: white;
 }
-.box{
-	text-align: center;
+
+.boton:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
+
+.boton2{
+    width: 90px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 15px;
+    padding: 15px 10px;
+    display: inline-block;
+    background-color:#4CAF50;
+    text-align: center;
+    cursor:pointer;
+    outline: none;
+    box-shadow: 0 9px #999;
+    color:#fff;
+
+}
+.boton2:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.boton2:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.boton3{
+    width: 150px;
+    height: 50px;
+    font-size: 17px;
+    border-radius: 15px;
+    padding: 15px 25px;
+    display: inline-block;
+    background-color:#4CAF50;
+    text-align: center;
+    cursor:pointer;
+    outline: none;
+    box-shadow: 0 9px #999;
+    color:#fff;
+
+}
+.boton3:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.boton3:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.boton4{
+    width: 150px;
+    height: 50px;
+    font-size: 17px;
+    border-radius: 15px;
+    padding: 15px 25px;
+    display: inline-block;
+    background-color:#4CAF50;
+    text-align: center;
+    cursor:pointer;
+    outline: none;
+    box-shadow: 0 9px #999;
+    color:#fff;
+
+}
+
+.boton4:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.boton4:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.box{
+    text-align: center;
+    margin-top: 20%;
+
+}
+ 
+ .box1{
+    text-align: center;
+    display: none;
+    margin-top: 5%;
+}
+
+ .box2{
+    text-align: center;
+    display: none;
+    margin-top: 5%;
+}
+
+ /*.box3{
+    text-align: center;
+    display: none;
+   
+}
+
+*/
 .titulo{
 	font-size: 20px;
 }
@@ -66,18 +185,13 @@ h1{
 
     color: black;
 
-    text-shadow: #7F7272;
-
-
-    
+    text-shadow: #7F7272;    
 }
 
 h2{
     color: black;
 
     font-size: 25px;
-    
-
 }
 
 h3{
@@ -93,7 +207,7 @@ h4{
     font-size: 25px;
 }
 
-footer{
+ li{
 
-    border-radius: 45px;
-}
+    display: inline;
+ }

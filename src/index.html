@@ -4,72 +4,53 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
 
-  <header>
-    <!-- Encabezado de la pagina web-->
-    <h1>Proyecto 1</h1>
-    <h2>Caesar Cipher</h2>  
-  </header>
-  <hr>
   <body>
 
-    <nav> Cifrado Dscifrado</nav>
+    <div class="box" id="box">
 
-    <!-- creo una etiqueta div que es un contenedor con una clase para poder darles estilos en css y la llamo box1-->
+      <h1>BIENVENID@</h1>
+      <button class=" boton" id="botoncifrarprincipal"> CIFRAR </button>
+      <button class=" boton" id="botondescifrarprincipal"> DESCIFRAR </button>     
+    </div>
 
-    <div class="box">
-    <h3 class="titulo">Introduce un Número (offset)</h3>  
-    <textarea type="text" id="valoroffset"></textarea>
-    
-    <h4 class="titulo">Introduce el texto a Cifrar</h4>
-   
-      <!--** LA ETIQUETA TEXTAREA** especifica un area de texto en nuestra pagina web, es parecida visualmente a la entreda input pero la funcion es diferente-->
-    <textarea type="text" id="textoacifrar" class= "cajatexto"></textarea>
-    <!--Realizo un boton para que el cliente le de click y pueda hacer el evento que en este caso es cifrar-->
-    <button class="boton" id="botoncifrar">Cifrar</button>
-    <!--<div id="boxcifrado">
-      <p id="resultado"></p>
-
-    </div>-->
-    <!-- Creo un area de texto para que imprima dentro el resultado-->
-    <textarea type="text" id="textocifrado" class= "cajatexto"></textarea>
-
-   
-
-   
-
-      <h4 class="titulo">Introduce el texto a Descifrar</h4>
-
-      <!--** LA ETIQUETA TEXTAREA** especifica un area de texto en nuestra pagina web, es parecida visualmente a la entreda input pero la funcion es diferente-->
-    <textarea type="text" id="textoadescifrar" class= "cajatexto"></textarea>
-    <!--Realizo un boton para que el cliente le de click y pueda hacer el evento que en este caso es cifrar-->
-
-    <button class="boton" id="botondescifrar">Descifrar</button>
-
-    <!--<div id="boxcifrado">
-      <p id="resultado"></p>
-
-    </div>-->
-    <!-- Creo un area de texto para que imprima dentro el resultado-->
-    <textarea type="text" id="textodescifrado" class= "cajatexto"></textarea>
-
+    <div class="box1" id="box1">
+      <div>
+      <h2 class="titulo">Introduce un Numero:</h2>  
+      <textarea type="text" id="valoroffset"></textarea> 
+       </div>    
+      <textarea placeholder="Introduce el texto a cifrar" type="text" id="textoacifrar" class= "cajatexto"></textarea>    
+      <div class="box11">
+      <button class="boton2" id="botoncifrar">Cifrar</button>  
+      </div>  
+      <textarea type="text" id="textocifrado" class= "cajatexto" readonly=""></textarea>
+      <div>
+      <button class=" boton3" id="limpiar"> LIMPIAR </button>
+      <button class=" boton4" id="regresar"> REGRESAR </button> 
+      </div>
+    </div>
+     
+    <div class="box2" id="box2">
+      <div>
+      <h3 class="titulo"> Introduce un Numero:</h3>
+      <textarea type="text" id="valoroffset2"></textarea>
+      </div>
+      <textarea placeholder="Introduce el texto a descifrar" type="text" id="textoadescifrar" class= "cajatexto"></textarea>
+      <div>
+      <button class="boton2" id="botondescifrar">Descifrar</button> 
+      </div>   
+      <textarea  type="text" id="textodescifrado" class= "cajatexto" readonly=""></textarea>
+      <div>
+      <button class=" boton3" id="limpiar2"> LIMPIAR </button>
+      <button class=" boton4" id="regresar2"> REGRESAR </button>  
+      </div>
     </div>
 
   
     <script src="cipher.js"></script>
     <script src="index.js"></script>
-
-    <footer>
-    
+   
   </body>
-
-    <div>
-      <h5>Contactanos</h5>
-      <p> Direccion: Av. Los Tulipanes 795. Lima- Peru <br>
-
-          Telefono: 9999999999</p>
-      </div>
-
-    </footer>
 </html>
